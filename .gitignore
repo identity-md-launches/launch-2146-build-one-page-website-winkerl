@@ -1,0 +1,10 @@
+# Explicit path budget: each generated path below has a submission budget of 0 bytes.
+# All patterns apply at every nesting level unless anchored with /.
+**/node_modules/
+**/.vite/
+**/.cache/
+**/.npm/
+**/coverage/
+**/*.tsbuildinfo
+/test/scratch/
+# dist/ is the required complete static export and is intentionally included.
